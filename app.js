@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const apiKey = 'cec5d336592a4a6d96cc478d3b3a19e2'; // Replace with your NewsAPI key
-    const topic = 'Trump'; // Topic of interest
+    const apiKey = ' API KEY TO BE ENTERED HERE '; // Replace with your NewsAPI key
+    const topic = ' TOPIC TO BE ENTERED HERE '; // Topic of interest
     const url = `https://newsapi.org/v2/everything?q=${topic}&apiKey=${apiKey}`;
 
     fetch(url)
